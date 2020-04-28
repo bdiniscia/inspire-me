@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/inspire-me/static/css/main.da96a338.chunk.css",
+    "main.css": "/inspire-me/static/css/main.d4be78c9.chunk.css",
     "main.js": "/inspire-me/static/js/main.63470551.chunk.js",
     "main.js.map": "/inspire-me/static/js/main.63470551.chunk.js.map",
     "runtime-main.js": "/inspire-me/static/js/runtime-main.47a66192.js",
@@ -8,15 +8,15 @@
     "static/js/2.e18d2df9.chunk.js": "/inspire-me/static/js/2.e18d2df9.chunk.js",
     "static/js/2.e18d2df9.chunk.js.map": "/inspire-me/static/js/2.e18d2df9.chunk.js.map",
     "index.html": "/inspire-me/index.html",
-    "precache-manifest.3a495d4d16d443e836f89e93ae9b89e9.js": "/inspire-me/precache-manifest.3a495d4d16d443e836f89e93ae9b89e9.js",
+    "precache-manifest.8684dfcb1f6fec808ee5f10ec262586b.js": "/inspire-me/precache-manifest.8684dfcb1f6fec808ee5f10ec262586b.js",
     "service-worker.js": "/inspire-me/service-worker.js",
-    "static/css/main.da96a338.chunk.css.map": "/inspire-me/static/css/main.da96a338.chunk.css.map",
+    "static/css/main.d4be78c9.chunk.css.map": "/inspire-me/static/css/main.d4be78c9.chunk.css.map",
     "static/js/2.e18d2df9.chunk.js.LICENSE.txt": "/inspire-me/static/js/2.e18d2df9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.47a66192.js",
     "static/js/2.e18d2df9.chunk.js",
-    "static/css/main.da96a338.chunk.css",
+    "static/css/main.d4be78c9.chunk.css",
     "static/js/main.63470551.chunk.js"
   ]
 }
