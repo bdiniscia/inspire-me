@@ -1,0 +1,24 @@
+.containerQuote {
+    width: 60%;
+    border: 3px solid #4eabb2;
+    border-radius: 10px;
+    padding: 1em 2em;
+    margin-top: 2em;
+}
+
+.divTextQuote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteText {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-size: 18px;
+    margin-top: 0;
+}
