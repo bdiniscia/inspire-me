@@ -3,19 +3,14 @@ import './Quote.css'
 
 export default class Quote extends Component {
 
-    componentDidMount () {
-        console.log('>>Desde el Quote:', this.props.quotes)
-    }
-
     renderQuote = () => {
         return (
             <div className='divTextQuote'> 
                 <h3 className='quoteText'>"{this.props.quotes[this.props.quoteNumber].text}"</h3>
-                <p className='quoteAuthor'>- {this.props.quotes[this.props.quoteNumber].author}</p>
+                <p className='quoteAuthor'>- {this.props.quotes[this.props.quoteNumber].author ? this.props.quotes[this.props.quoteNumber].author : 'Anonymous'}</p>
             </div>
         )
     }
-
     
     render() {
         return (

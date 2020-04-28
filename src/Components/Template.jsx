@@ -18,20 +18,16 @@ export default class Template extends Component {
         this.setState({
             quoteNumber: randomNumer
         })
-        console.log('El random number:', this.state.quoteNumber)
     }
 
     callingTheApi = () => {
         fetch('https://type.fit/api/quotes')
             .then( res => res.json())
             .then( data => {
-                console.log(data[199].text);
                 this.setState({
                     lengthArray: data.length,
                     quotes: data,
                 })
-                console.log('Estado del lenght:', this.state.lengthArray)
-                console.log('Estado de las quotes:', this.state.quotes)
             })
             .catch( err => console.error(err))
     }
