@@ -15,8 +15,10 @@
 .motto {
     font-size: 25px;
     font-weight: 500;
+    margin-top: 0;
 }
 
 .instructions {
     font-size: 18px;
+    margin-top: 2.5em;
 }
