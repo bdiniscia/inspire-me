@@ -22,3 +22,13 @@
     font-size: 18px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .quoteText {
+        font-size: 24px;
+    }
+
+    .quoteAuthor {
+        font-size: 16px;
+    }
+}
