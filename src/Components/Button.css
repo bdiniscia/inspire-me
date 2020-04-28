@@ -7,3 +7,11 @@
     color: #455a5c;
     font-weight: 500;
 }
+
+.button:active {
+    background-color: #e69f8f;
+}
+
+.button:hover {
+    color: #faf1ec;
+}
